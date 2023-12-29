@@ -278,7 +278,7 @@ for (let round = 1; round <= 10; round++) {
     "Wins: " + wins + "\n" +
     "Draws: " + draws + "\n" + 
     "Losses: " + losses + "\n\n" + 
-    "Fancy another go"); // the confirm function creates a dialog box with OK (true) or Cancel (false)
+    "Fancy another go?"); // the confirm function creates a dialog box with OK (true) or Cancel (false)
     if (!playAgain) { // !playAgain is saying it's NOT true. 
         break; // If playAgain is FALSE (i.e. they push cancel) the break function exts the loop.  
     } 
